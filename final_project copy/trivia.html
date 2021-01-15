@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>Harry Potter Trivia</title>
+            <script src="trivia.js"></script>
+           <style>
+             body{
+            color: white;
+            background: rgb(2,0,36);
+            background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+            }   
+            </style>
+        </head>
+        <body>
+            <h1> Harry Potter Trivia</h1>
+            <!--Question 1-->
+        <form id="quiz" name="quiz">
+            <br>What is Harry's jersey number in Quiditch?<br>
+            <input type="radio" name="question1" value="4"/><label>4</label><br>
+            <input type="radio" name="question1" value="7"/><label>7</label><br> 
+            <input type="radio" name="question1" value="10"/><label>10</label><br>
+            <input type="radio" name="question1" value="42"/><label>42</label><br>
+            
+    
+            <!--Question 2-->
+            <br>How many horcruxs are there?<br>
+             <input type="radio" name="question2" value="3"/><label>3</label><br>
+             <input type="radio" name="question2" value="5"/><label>5</label><br>
+             <input type="radio" name="question2" value="7"/><label>7</label><br> 
+             <input type="radio" name="question2" value="12"/><label>12</label><br>
+             
+            <!--Question 3-->
+             <br>Who is the Hufflepuff house ghost? <br>
+              <input type="textbox" name="question3" value="(all lowercase)"/><label></label><br>
+            <!--Question 4-->
+              <br>In which Harry Potter movie does Dobby die?<br>
+              <input type="radio" name="question4" value="Harry Potter and the Deathly Hollows Part 2"/><label>Harry Potter and the Deathly Hollows Part 2</label><br>
+              <input type="radio" name="question4" value="Harry Potter and the Order of the Phoenix"/><label>Harry Potter and the Oder of the Phoenix</label><br>
+              <input type="radio" name="question4" value="Harry Potter and the Goblet of Fire"/><label>Harry Potter and the Goblet of Fire</label><br>
+              <input type="radio" name="question4" value="Harry Potter and the Deathly Hollows Part 1"/><label>Harry Potter and the Deathly Hollows Part 1</label><br> 
+              
+            <!--Question 5-->
+              <br> What does Harry Potter eat in the Goblet of Fire to become a fish?<br>
+             <input type="radio" name="question5" value="Gillyweed"/><label>Gillyweed</label><br> 
+             <input type="radio" name="question5" value="Knotgrass"/><label>Knotgrass</label><br>
+             <input type="radio" name="question5" value="Lacewing flies"/><label>Lacewing flies</label><br>
+             <input type="radio" name="question5" value="Fluxweed"/><label>Fluxweed</label><br>
+             
+            <!--Question 6-->
+             <br>How many staircases does Hogwarts have?<br>
+             <input type="radio" name="question6" value="104"/><label>104</label><br> 
+             <input type="radio" name="question6" value="12"/><label>12</label><br>
+             <input type="radio" name="question6" value="142"/><label>142</label><br> 
+             <input type="radio" name="question6" value="136"/><label>136</label><br>
+             
+           <!--Question 7-->
+             <br>For Harry's 17th birthday, what color did Hermione turn the leaves of the Weasley’s crabapple tree?<br>
+             <input type="radio" name="question7" value="Silver"/><label>Silver</label><br>            
+             <input type="radio" name="question7" value="Scarlet"/><label>Scarlet</label><br>
+             <input type="radio" name="question7" value="Amber"/><label>Amber</label><br>
+             <input type="radio" name="question7" value="Gold"/><label>Gold</label><br> 
+             
+             <!--Question 8-->
+             <br>What is the max speed for a Firebolt broomstick?<br>
+             <input type="radio" name="question8" value="100mph"/><label>100mph</label><br>            
+             <input type="radio" name="question8" value="150mph"/><label>150mph</label><br> 
+             <input type="radio" name="question8" value="200mph"/><label>200mph</label><br>
+             <input type="radio" name="question8" value="250mph"/><label>250mph</label><br>
+             
+             <!--Question 9-->
+             <br>Ginny Weasley bought a pet Pygmy Puff from her older brothers' joke shop. What did she name it?<br>
+             <input type="radio" name="question9" value="Smauel"/><label>Samuel</label><br>            
+             <input type="radio" name="question9" value="Bob"/><label>Bob</label><br>
+             <input type="radio" name="question9" value="Arnold"/><label>Arnold</label><br> 
+             <input type="radio" name="question9" value="Fred"/><label>Fred</label><br>
+             
+             <!--Question 10-->
+             <br>What name was Voldemort born with?<br>
+             <input type="textbox" name="question10" value="(all lowercase)"/><label></label><br>            
+             
+             
+               <input type="reset" value="Start Over"/>
+               <button id = "button" type="button" value="I'm Done" onclick="check();">Submit</button>
+            
+             </form>
+             
+             <!-- quiz result appears in below placedholder -->
+            <h1 id="result"></h1>
+
+             
+             <br>
+    
+            
+        </body>
+    </html>
